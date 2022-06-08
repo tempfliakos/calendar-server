@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use('/reserves', reservesRouter);
 
 app.get("/", (req, res) => {
-	res.send("Running...");
+	res.send("Running?");
 });
 
 ;(async () => {
