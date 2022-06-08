@@ -6,6 +6,7 @@ create table reserves
 	name varchar(50) not null,
 	start timestamp with time zone not null,
 	finish timestamp with time zone not null,
+	color varchar(8),
 	created_at timestamp with time zone default current_timestamp,
 	updated_at timestamp with time zone
 );

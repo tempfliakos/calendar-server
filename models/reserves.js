@@ -17,6 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     start: DataTypes.DATE,
     finish: DataTypes.DATE,
+    color: DataTypes.STRING,
     attendees_count: DataTypes.INTEGER,
     attendees: DataTypes.STRING
   }, {
